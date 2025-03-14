@@ -7,5 +7,6 @@ header {
     border: 0px radius rgb(241, 225, 225);
     margin: 0px;
     padding: 0px;
+    display: flex;
 }
 
