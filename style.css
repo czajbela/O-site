@@ -2,7 +2,9 @@ header {
     background-color: #DBE2EF;
 }
 .filipe{
-    background-color: antiquewhite;
-    display: inline;
-    margin: 0cm;
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
 }
