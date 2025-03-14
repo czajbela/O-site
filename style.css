@@ -2,9 +2,9 @@ header {
     background-color: #DBE2EF;
 }
 .filipe{
-    background-color: tomato;
+    background-color: #3F72AF;
     color: white;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
+    border: 0px radius rgb(241, 225, 225);
+    margin: 0px;
+    padding: 0px;
 }
