@@ -1,23 +1,13 @@
 header {
     background-color: #DBE2EF;
+    display: inline
 }
-.bela{
-    background-color: #3F72AF;
-    color: white;
-    border: 0px radius rgb(241, 225, 225);
-    margin: 0px;
-    padding: 0px;
+
+.lista1{
+    justify-content: baseline;
     display: flex;
 }
 
-.botaum{
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
+lista2{
+    justify-content: end;
 }
