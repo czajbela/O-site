@@ -40,11 +40,8 @@ menu{
         align-content: flex-end;
 }
 
-a{
+.links{
     text-decoration: none;
-    color: #ffffff;
-    font-size: large;
-    display: flex;
-    border-radius: 15%;
-    border: #497D74;
+    border: #27445D;
+    border-radius: 2%;
 }
