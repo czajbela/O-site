@@ -19,7 +19,7 @@ i#burguer{
     color: #EFE9D5;
     text-align: start;
     cursor: pointer;
-    padding-right: 20px;
+    padding: 10px;
 }
 
 i#burguer:hover{
