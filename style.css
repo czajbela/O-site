@@ -1,5 +1,5 @@
 header{
-    background-color: blue;
+    background-color: rgb(99, 141, 218);
     font-size: large;
     font-style: italic;
 }
@@ -14,5 +14,7 @@ header{
 }
 
 .conteudo{
- display: inline-block;   
+ display: inline-block;
+ flex-direction: row;
+
 }
