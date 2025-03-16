@@ -2,8 +2,8 @@ header{
     background-color: rgb(99, 141, 218);
     font-size: large;
     font-style: italic;
-    padding: 100px;
-    margin: 0%;
+    padding: 40px;
+    margin: 40%;
 }
 
 
@@ -19,4 +19,9 @@ header{
  display: inline-block;
  flex-direction: row;
 
+}
+
+.menu{
+    display: inline-block;
+    flex-direction: row;
 }
