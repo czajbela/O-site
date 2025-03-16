@@ -34,11 +34,8 @@ menu{
 }
 
 a{
-    size: 100px;
     text-decoration: none;
     color: #EFE9D5;
-    border: #27445D;
-    border-radius: 2%;
 }
 
 li{ list-style: none;
