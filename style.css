@@ -21,6 +21,7 @@ body{
 
 .abaconteudo{
     background-color: black;
+   display: flex;
 }
 .conteudo{
         display: flex;
