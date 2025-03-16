@@ -15,10 +15,17 @@ header{
     z-index: 1000;
 }
 
+.abaconteudo{
+    color: aliceblue;
+    padding: 10px;
+}
 .conteudo{
- display: flex;
- flex-direction: row;
-
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        align-content: flex-end;
 }
 
 .menu{
