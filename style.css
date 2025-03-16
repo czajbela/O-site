@@ -28,6 +28,7 @@ menu{
 .abaconteudo{
     background-color: #27445D;
    display: flex;
+   margin: 10%;
 }
 .conteudo{
         display: flex;
