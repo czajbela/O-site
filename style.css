@@ -28,9 +28,13 @@ menu{
 
 .abaconteudo{
     background-color: #27445D;
-   display: flex;
-   margin: 2px;
-   padding: 2px;
+    display: flex;
+    margin: 2px;
+    padding: 2px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 a{
