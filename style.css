@@ -25,7 +25,8 @@ i#burguer{
 i#burguer:hover{
     background-color: #EFE9D5;
     color: #162736;
-    border-radius: 50%;
+    border-radius: 10%;
+    border: 20px;
 }
 
 menu{
@@ -53,7 +54,8 @@ li{ list-style: none;}
 li:hover{
     background-color: #162736;
     color: #EFE9D5;
-    border-radius: 50%;
+    border-radius: 10%;
+    border: 20px;
 }
 
 .materias{
