@@ -16,12 +16,12 @@ header{
 }
 
 .conteudo{
- display: inline-block;
+ display: flex;
  flex-direction: row;
 
 }
 
 .menu{
-    display: inline-block;
+    display: flexbox;
     flex-direction: row;
 }
