@@ -40,7 +40,7 @@ menu{
         align-content: flex-end;
 }
 
-.links{
+a{
     text-decoration: none;
     border: #27445D;
     border-radius: 2%;
