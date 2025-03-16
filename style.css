@@ -15,7 +15,7 @@ body{
 }
 
 i#burguer{
-    background-color:#27445D;
+    background-color:#162736;
     color: #EFE9D5;
     text-align: start;
     cursor: pointer;
@@ -24,7 +24,8 @@ i#burguer{
 
 i#burguer:hover{
     background-color: #EFE9D5;
-    color: #11202c;
+    color: #162736;
+    border-radius: 20%;
 }
 
 menu{
