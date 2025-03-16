@@ -1,3 +1,11 @@
+header{
+    background-color: blue;
+    font-size: large;
+    font-style: italic;
+}
+
+
+
 .menuHAMBURGUER{
     position: fixed;
     top:2rem;
@@ -5,3 +13,6 @@
     z-index: 1000;
 }
 
+.conteudo{
+ display: inline-block;   
+}
