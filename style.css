@@ -39,3 +39,8 @@ menu{
         align-content: flex-end;
 }
 
+a{
+    text-decoration: none;
+    color: #27445D;
+    font-size: large;
+}
