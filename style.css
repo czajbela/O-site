@@ -11,8 +11,8 @@ body{
    background-color: bisque;
 }
 
-i#burguer{
-    background-color: blue;
+i#hamburguer{
+    background-color: rgb(122, 122, 226);
     color: antiquewhite;
     display: block;
     text-align: start;
@@ -20,9 +20,9 @@ i#burguer{
     cursor: pointer;
 }
 
-i#burguer:hover{
+i#hamburguer:hover{
     background-color: aquamarine;
-    color: antiquewhite;
+    color: rgb(146, 107, 57);
 }
 .menu{
     display: none;
