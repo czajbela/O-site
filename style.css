@@ -1,4 +1,5 @@
 header{
+    display: flex;
     background-color: #27445D;
     color: #EFE9D5
 }
@@ -31,14 +32,6 @@ menu{
    margin: 2px;
    padding: 2px;
 }
-.conteudo{
-        display: flex;
-        flex-direction: row-reverse;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: baseline;
-        align-content: flex-end;
-}
 
 a{
     text-decoration: none;
@@ -47,4 +40,6 @@ a{
     border-radius: 2%;
 }
 
-li{ list-style: none;}
+li{ list-style: none;
+font-size: larger;
+}
