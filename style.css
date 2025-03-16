@@ -1,10 +1,6 @@
 header{
     background-color: #27445D;
     color: #EFE9D5
-    font-size: large;
-    font-style: italic;
-    padding: 40px;
-    margin: 0%;
 }
 
 body{
@@ -22,7 +18,7 @@ i#burguer{
 
 i#burguer:hover{
     background-color: #EFE9D5;
-    color: #27445D);
+    color: #27445D;
 }
 
 menu{
