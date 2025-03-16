@@ -14,10 +14,12 @@
     <header>
         <div>     
     <ul class="Menu">
-    <span class="material-icons">menu</span>
+    <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
+    <menu id="itens">
     <li><a href="física.html">Física</a></li>
     <li><a href="química.html">Química</a></li>
     <li><a href="biologia.html">Biologia</a></li>
+    </menu>
     </ul>
         </div>  
         </div>
@@ -29,5 +31,14 @@
 </ul>
 </div>
     </header>
+    <script>
+        function clickMenu(){
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           } else{
+            itens.style.display = 'block'
+           }
+        }
+    </script>
 </body>
 

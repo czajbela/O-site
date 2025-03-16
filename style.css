@@ -11,12 +11,21 @@ body{
    background-color: bisque;
 }
 
+i#burguer{
+    background-color: blue;
+    color: antiquewhite;
+    display: block;
+    text-align: start;
+    padding: 5px;
+    cursor: pointer;
+}
 
-.menuHAMBURGUER{
-    position: fixed;
-    top:2rem;
-    right:20px;
-    z-index: 1000;
+i#burguer:hover{
+    background-color: aquamarine;
+    color: antiquewhite;
+}
+.menu{
+    display: none;
 }
 
 .abaconteudo{
@@ -32,7 +41,3 @@ body{
         align-content: flex-end;
 }
 
-.menu{
-    display: flexbox;
-    flex-direction: row;
-}
