@@ -28,7 +28,8 @@ menu{
 .abaconteudo{
     background-color: #27445D;
    display: flex;
-   margin: 10%;
+   margin: 2px;
+   padding: 2px;
 }
 .conteudo{
         display: flex;
@@ -45,4 +46,5 @@ a{
     font-size: large;
     display: flex;
     border-radius: 15%;
+    border: #497D74;
 }
