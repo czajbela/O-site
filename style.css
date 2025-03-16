@@ -51,8 +51,9 @@ a{
 li{ list-style: none;}
 
 li:hover{
-    background-color: #060a42;
+    background-color: #162736;
     color: #EFE9D5;
+    border-radius: 20%;
 }
 
 .materias{
