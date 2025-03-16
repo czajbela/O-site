@@ -11,9 +11,8 @@ body{
 i#burguer{
     background-color:#497D74;
     color: #EFE9D5;
-    display: block;
     text-align: start;
-    padding: 15px;
+    padding: 20px;
     cursor: pointer;
 }
 
