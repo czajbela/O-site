@@ -11,7 +11,7 @@ body{
    background-color: bisque;
 }
 
-i#hamburguer{
+i#burguer{
     background-color: rgb(122, 122, 226);
     color: antiquewhite;
     display: block;
@@ -20,7 +20,7 @@ i#hamburguer{
     cursor: pointer;
 }
 
-i#hamburguer:hover{
+i#burguer:hover{
     background-color: aquamarine;
     color: rgb(146, 107, 57);
 }
