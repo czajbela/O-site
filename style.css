@@ -1,6 +1,6 @@
 header{
-    background-color: rgb(99, 141, 218);
-    color: aliceblue;
+    background-color: #27445D;
+    color: #EFE9D5
     font-size: large;
     font-style: italic;
     padding: 40px;
@@ -8,12 +8,12 @@ header{
 }
 
 body{
-   background-color: bisque;
+   background-color: #EFE9D5;
 }
 
 i#burguer{
-    background-color: rgb(122, 122, 226);
-    color: antiquewhite;
+    background-color:#497D74;
+    color: #EFE9D5;
     display: block;
     text-align: start;
     padding: 5px;
@@ -21,8 +21,8 @@ i#burguer{
 }
 
 i#burguer:hover{
-    background-color: aquamarine;
-    color: rgb(146, 107, 57);
+    background-color: #EFE9D5;
+    color: #27445D);
 }
 
 menu{
@@ -30,7 +30,7 @@ menu{
 }
 
 .abaconteudo{
-    background-color: black;
+    background-color: #27445D;
    display: flex;
 }
 .conteudo{
