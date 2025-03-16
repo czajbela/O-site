@@ -1,5 +1,6 @@
 header{
     display: flex;
+    justify-content: space-between;
     background-color: #27445D;
     color: #EFE9D5
 }
