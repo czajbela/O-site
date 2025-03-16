@@ -2,8 +2,13 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: #27445D;
-    color: #EFE9D5
+    color: #EFE9D5;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: stretch;
 }
+
 
 body{
    background-color: #EFE9D5;
@@ -46,6 +51,10 @@ li{ list-style: none;}
 
 .materias{
     display: flex;
-    size: 10cm;
-    font-size: xx-large;
+    font-size: 60px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row;
+    align-content: center;
 }
