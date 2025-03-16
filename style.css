@@ -27,21 +27,25 @@ menu{
 }
 
 .abaconteudo{
-    background-color: #27445D;
     display: flex;
-    margin: 2px;
-    padding: 2px;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #27445D;
+    color: #EFE9D5;
+    align-content: space-between;
+    flex-wrap: nowrap;
     flex-direction: column;
 }
+
 
 a{
     text-decoration: none;
     color: #EFE9D5;
 }
 
-li{ list-style: none;
-font-size: larger;
+li{ list-style: none;}
+
+.materias{
+    display: flex;
+    size: 10cm;
+    font-size: xx-large;
 }
