@@ -69,3 +69,10 @@ li:hover{
     flex-direction: row;
     align-content: center;
 }
+
+.titulopagina{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #27445D;
+    font-size: larger;
+}
