@@ -24,7 +24,8 @@ i#burguer:hover{
     background-color: aquamarine;
     color: rgb(146, 107, 57);
 }
-.menu{
+
+menu{
     display: none;
 }
 
