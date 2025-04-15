@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #4B5945;
+    background-color: #727D73;
     color: #B2C9AD;
     align-content: space-around;
     flex-wrap: nowrap;
@@ -11,12 +11,12 @@ header{
 
 
 body{
-   background-color: #66785F;
+   background-color: #F0F0D7;
 }
 
 i#burguer{
-    background-color:#97866A;
-    color: #EFE9D5;
+    background-color:#727D73;
+    color: #AAB99A;
     text-align: start;
     cursor: pointer;
     padding: 10px;
