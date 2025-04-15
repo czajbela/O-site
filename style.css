@@ -24,7 +24,7 @@ i#burguer{
 
 i#burguer:hover{
     background-color: #91AC8F;
-    color: #B2C9AD;
+    color: #D0DDD0;
     border-radius: 10%;
     border: 20px;
 }
@@ -37,7 +37,7 @@ menu{
     display: flex;
     font-size: large;
     justify-content: flex-start;
-    background-color: #162736;
+    background-color: #AAB99A;
     color: #EFE9D5;
     justify-content: space-around;
     flex-wrap: nowrap;
