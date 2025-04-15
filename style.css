@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #66785F;
+    background-color: #4B5945;
     color: #B2C9AD;
     align-content: space-around;
     flex-wrap: nowrap;
@@ -11,7 +11,7 @@ header{
 
 
 body{
-   background-color: #4B5945;
+   background-color: #66785F;
 }
 
 i#burguer{
