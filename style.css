@@ -53,7 +53,7 @@ a{
 li{ list-style: none;}
 
 li:hover{
-    background-color: #162736;
+    background-color: #D0DDD0;
     color: #EFE9D5;
     border-radius: 10%;
     border: 20px;
