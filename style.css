@@ -74,7 +74,7 @@ li:hover{
     display: flex;
     color: #27445D;
     font-size: 15px;
-    justify-content: flex-end
+    justify-content: flex-end;
     align-content: space-around;
     flex-wrap: nowrap;
     flex-direction: row-reverse;
