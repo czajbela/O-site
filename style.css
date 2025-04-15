@@ -37,7 +37,7 @@ menu{
     display: flex;
     font-size: large;
     justify-content: flex-start;
-    background-color: #727D73;
+    background-color: #D0DDD0;
     color: #EFE9D5;
     justify-content: space-around;
     flex-wrap: nowrap;
@@ -72,7 +72,7 @@ li:hover{
 
 .titulopagina{
     display: flex;
-    color: #27445D;
+    color: #91AC8F;
     font-size: 15px;
     justify-content: flex-end;
     align-content: space-around;
