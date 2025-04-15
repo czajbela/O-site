@@ -1,8 +1,8 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #604652;
-    color: #735557;
+    background-color: #66785F;
+    color: #B2C9AD;
     align-content: space-around;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -11,7 +11,7 @@ header{
 
 
 body{
-   background-color: #D29F80;
+   background-color: #4B5945;
 }
 
 i#burguer{
@@ -23,8 +23,8 @@ i#burguer{
 }
 
 i#burguer:hover{
-    background-color: #EFE9D5;
-    color: #162736;
+    background-color: #91AC8F;
+    color: #B2C9AD;
     border-radius: 10%;
     border: 20px;
 }
