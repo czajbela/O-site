@@ -1,8 +1,8 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #727D73;
-    color: #B2C9AD;
+    background-color: #27445D;
+    color: #EFE9D5;
     align-content: space-around;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -11,20 +11,20 @@ header{
 
 
 body{
-   background-color: #F0F0D7;
+   background-color: #EFE9D5;
 }
 
 i#burguer{
-    background-color:#727D73;
-    color: #AAB99A;
+    background-color:#27445D;
+    color: #EFE9D5;
     text-align: start;
     cursor: pointer;
     padding: 10px;
 }
 
 i#burguer:hover{
-    background-color: #91AC8F;
-    color: #D0DDD0;
+    background-color: #EFE9D5;
+    color: #162736;
     border-radius: 10%;
     border: 20px;
 }
@@ -35,10 +35,9 @@ menu{
 
 .abaconteudo{
     display: flex;
-    font-size: 90%;
     justify-content: flex-start;
-    background-color: #D0DDD0;
-    color: #F0F0D7;
+    background-color: #162736;
+    color: #EFE9D5;
     justify-content: space-around;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -47,14 +46,15 @@ menu{
 
 a{
     text-decoration: none;
-    color: #727D73;
+    color: #EFE9D5;
 }
 
 li{ list-style: none;}
 
 li:hover{
-    background-color: #727D73;
-    color:  #91AC8F;
+    background-color: #162736;
+    color: #EFE9D5;
+    border-radius: 10%;
     border: 20px;
 }
 
@@ -72,10 +72,10 @@ li:hover{
 
 .titulopagina{
     display: flex;
-    color: #91AC8F;
+    color: #27445D;
     font-size: 15px;
-    justify-content: flex-end;
+    justify-content: flex-end
     align-content: space-around;
     flex-wrap: nowrap;
     flex-direction: row-reverse;
-    align-items: stretch;}
+    align-items: stretch;
