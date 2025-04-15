@@ -37,7 +37,7 @@ menu{
     display: flex;
     font-size: large;
     justify-content: flex-start;
-    background-color: #AAB99A;
+    background-color: #727D73;
     color: #EFE9D5;
     justify-content: space-around;
     flex-wrap: nowrap;
@@ -54,8 +54,7 @@ li{ list-style: none;}
 
 li:hover{
     background-color: #D0DDD0;
-    color: #EFE9D5;
-    border-radius: 10%;
+    color:  #AAB99A;
     border: 20px;
 }
 
