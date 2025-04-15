@@ -35,6 +35,7 @@ menu{
 
 .abaconteudo{
     display: flex;
+    font-size: large;
     justify-content: flex-start;
     background-color: #162736;
     color: #EFE9D5;
