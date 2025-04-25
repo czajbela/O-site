@@ -1,33 +1,29 @@
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
 
 body {
-    background-color: #A5C9CA;
+    background-color: #DFD0B8;
     font-family: Arial, sans-serif;
-    color: #2C3333;
+    color: #153448;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #395B64;
-    color: #A5C9CA;
+    background-color: #3C5B6F;
+    color: #DFD0B8;
     padding: 10px;
 }
 
 i#burguer {
-    background-color: #395B64;
-    color: #A5C9CA;
+    background-color: #3C5B6F;
+    color: #DFD0B8;
     padding: 10px;
     cursor: pointer;
     text-align: start;
 }
 
 i#burguer:hover {
-    background-color: #A5C9CA;
-    color: #2C3333;
+    background-color: #DFD0B8;
+    color: #153448;
     border-radius: 10%;
 }
 
@@ -45,14 +41,14 @@ menu {
 }
 
 .materias li a {
-    color: #A5C9CA;
+    color: #DFD0B8;
     text-decoration: none;
     font-size: 18px;
     padding: 10px;
 }
 
 .materias li a:hover {
-    background-color: #2C3333;
+    background-color: #153448;
     border-radius: 10%;
 }
 
@@ -64,25 +60,25 @@ menu {
     text-align: center;
     font-size: 24px;
     padding: 20px;
-    color: #2C3333;
+    color: #153448;
 }
 
 .submenu {
     display: flex;
     justify-content: center;
-    background-color: #395B64;
+    background-color: #3C5B6F;
     padding: 10px;
     gap: 20px;
 }
 
 .submenu a {
-    color: #A5C9CA;
+    color: #DFD0B8;
     font-weight: bold;
     text-decoration: none;
 }
 
 .submenu a:hover {
-    color: #2C3333;
+    color: #153448;
     text-decoration: underline;
 }
 
@@ -106,8 +102,8 @@ menu {
 }
 
 .botao-voltar {
-    background-color: #395B64;
-    color: #A5C9CA;
+    background-color: #3C5B6F;
+    color: #DFD0B8;
     padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
@@ -118,13 +114,13 @@ menu {
 }
 
 .botao-voltar:hover {
-    background-color: #2C3333;
-    color: #A5C9CA;
+    background-color: #153448;
+    color: #DFD0B8;
 }
 
 footer {
-    background-color: #395B64;
-    color: #A5C9CA;
+    background-color: #3C5B6F;
+    color: #DFD0B8;
     text-align: center;
     padding: 15px;
 }
@@ -146,8 +142,8 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    background-color: #2C3333;
-    color: #A5C9CA;
+    background-color: #153448;
+    color: #DFD0B8;
     padding: 20px 0;
 }
 
