@@ -1,15 +1,23 @@
-body {
-    background-color: #EFE9D5;
+/* Resetando margens e preenchimentos padrões */
+body, h1, h2, h3, p, ul, li {
     margin: 0;
-    font-family: Arial, sans-serif;
+    padding: 0;
 }
 
+/* Corpo da página */
+body {
+    background-color: #EFE9D5;
+    font-family: Arial, sans-serif;
+    color: #162736;
+}
+
+/* Estilo do cabeçalho */
 header {
     display: flex;
     justify-content: space-between;
     background-color: #27445D;
+    padding: 10px;
     color: #EFE9D5;
-    flex-direction: column;
 }
 
 i#burguer {
@@ -31,18 +39,17 @@ menu {
 }
 
 .materias {
+    list-style: none;
     display: flex;
-    font-size: 20px;
     justify-content: space-around;
     flex-wrap: wrap;
-    list-style: none;
     padding: 0;
-    margin: 0;
 }
 
 .materias li a {
     color: #EFE9D5;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .materias li:hover {
@@ -50,14 +57,15 @@ menu {
     border-radius: 10%;
 }
 
+/* Título da página */
 .titulopagina {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+    text-align: center;
     font-size: 24px;
+    padding: 20px;
     color: #27445D;
 }
 
+/* Menu de navegação */
 .submenu {
     display: flex;
     justify-content: center;
@@ -77,6 +85,7 @@ menu {
     text-decoration: underline;
 }
 
+/* Conteúdo principal */
 .conteudo {
     padding: 20px;
 }
@@ -85,18 +94,18 @@ menu {
     margin-bottom: 40px;
 }
 
-footer {
-    background-color: #27445D;
-    color: #EFE9D5;
-    text-align: center;
-    padding: 15px;
+.item-conteudo {
+    margin-bottom: 30px;
 }
 
-.voltar-index {
-    text-align: center;
-    margin: 20px 0;
+.imagem-conteudo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
+/* Botão de voltar */
 .botao-voltar {
     background-color: #27445D;
     color: #EFE9D5;
@@ -105,9 +114,29 @@ footer {
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+    display: inline-block;
+    margin: 20px 0;
 }
 
 .botao-voltar:hover {
     background-color: #162736;
     color: #FFD700;
 }
+
+/* Rodapé */
+footer {
+    background-color: #27445D;
+    color: #EFE9D5;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Estilo do menu ao clicar */
+#itens {
+    display: none;
+}
+
+#itens.active {
+    display: block;
+}
+
