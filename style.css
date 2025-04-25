@@ -22,7 +22,7 @@ i#burguer {
 
 i#burguer:hover {
     background-color: #E2E0C8;
-    color: #5C7285;
+    color: #3C5B6F;
     border-radius: 10%;
 }
 
@@ -46,7 +46,7 @@ menu {
 }
 
 .materias li:hover {
-    background-color: #818C78;
+    background-color: #3C5B6F;
     border-radius: 10%;
 }
 
@@ -73,7 +73,7 @@ menu {
 }
 
 .submenu a:hover {
-    color: #A7B49E;
+    color: #DFD0B8;
     text-decoration: underline;
 }
 
@@ -104,10 +104,9 @@ footer {
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
-    transition: 0.3s;
 }
 
 .botao-voltar:hover {
-    background-color: #818C78;
-    color: #A7B49E;
+    background-color: #3C5B6F;
+    color: #DFD0B8;
 }
