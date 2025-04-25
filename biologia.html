@@ -2,71 +2,84 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio - Biologia</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Biologia</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <div>
-      <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-      <menu id="itens">
-        <ul class="materias">
-          <li><a href="física.html">Física</a></li>
-          <li><a href="química.html">Química</a></li>
-          <li><a href="biologia.html">Biologia</a></li>
-        </ul>
-      </menu>
+    <header>
+        <div>
+            <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+            <menu id="itens">
+                <ul class="materias">
+                    <li><a href="física.html">Física</a></li>
+                    <li><a href="química.html">Química</a></li>
+                    <li><a href="biologia.html">Biologia</a></li>
+                </ul>
+            </menu>
+        </div>
+    </header>
+
+    <div class="titulopagina">
+        <h1>Portfólio - Biologia</h1>
     </div>
-  </header>
 
-  <div class="titulopagina">
-    <h1>Portfólio - Biologia</h1>
-  </div>
+    <div class="voltar-index">
+        <a href="index.html" class="botao-voltar">← Voltar para a Página Inicial</a>
+    </div>
 
-  <div class="voltar-index">
-    <a href="index.html" class="botao-voltar">← Voltar para a Página Inicial</a>
-  </div>
+    <nav class="submenu">
+        <a href="#atividades">Atividades</a>
+        <a href="#laboratorios">Laboratórios</a>
+        <a href="#provas">Provas</a>
+    </nav>
 
-  <nav class="submenu">
-    <a href="#atividades">Atividades</a>
-    <a href="#laboratorios">Laboratórios</a>
-    <a href="#provas">Provas</a>
-  </nav>
+    <div class="conteudo">
+        <section id="atividades">
+            <h2>Atividades</h2>
+            <ul>
+                <li>Resumo sobre Células</li>
+                <li>Exercícios sobre Genética</li>
+                <li>Apresentação sobre Ecossistemas</li>
+            </ul>
+        </section>
 
-  <div class="conteudo">
-    <section id="atividades">
-      <h2>Atividades</h2>
-      <div class="item-conteudo">
-        <h3>Resumo: Células e Organismos</h3>
-        <img src="imagens/celulas.jpg" alt="Células" class="imagem-conteudo">
-        <p>Resumo sobre a estrutura celular e suas funções principais.</p>
-      </div>
-    </section>
+        <section id="laboratorios">
+            <h2>Laboratórios</h2>
+            <ul>
+                <li>Microscopia de Células Vegetais e Animais</li>
+                <li>Experimento sobre Fotossíntese</li>
+                <li>Experimento de Reprodução Asexuada</li>
+            </ul>
+        </section>
 
-    <section id="laboratorios">
-      <h2>Laboratórios</h2>
-      <div class="item-conteudo">
-        <h3>Experimento de Divisão Celular</h3>
-        <img src="imagens/divisao-celular.jpg" alt="Divisão Celular" class="imagem-conteudo">
-        <p>Observação ao microscópio das fases da mitose.</p>
-      </div>
-    </section>
+        <section id="provas">
+            <h2>Provas</h2>
+            <ul>
+                <li>Prova 1º Bimestre: Células e Organismos</li>
+                <li>Prova 2º Bimestre: Genética</li>
+                <li>Prova Final: Ecologia e Evolução</li>
+            </ul>
+        </section>
+    </div>
 
-    <section id="provas">
-      <h2>Provas</h2>
-      <div class="item-conteudo">
-        <h3>Prova 1º Bimestre</h3>
-        <img src="imagens/prova-bio.jpg" alt="Prova Biologia" class="imagem-conteudo">
-        <p>Prova abordando biologia celular e ecologia.</p>
-      </div>
-    </section>
-  </div>
+    <footer>
+        <p>Desenvolvido por [Seu Nome] | Portfólio Escolar - Biologia | 2025</p>
+    </footer>
 
-  <footer>
-    <p>Desenvolvido pelos alunos Filipe, Isabela e Laura do 3J - Biologia</p>
-</footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display === 'block') {
+                itens.style.display = 'none';
+            } else {
+                itens.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+
+</html>
