@@ -1,82 +1,119 @@
-header{
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EFE9D5;
+    color: #333;
+  }
+  
+  /* Cabeçalho */
+  header {
     display: flex;
     justify-content: space-between;
     background-color: #27445D;
     color: #EFE9D5;
-    align-content: space-around;
-    flex-wrap: nowrap;
+    padding: 10px;
     flex-direction: column;
-    align-items: stretch;
-}
-
-
-body{
-   background-color: #EFE9D5;
-}
-
-i#burguer{
-    background-color:#27445D;
+  }
+  
+  /* Botão Menu */
+  i#burguer {
+    background-color: #27445D;
     color: #EFE9D5;
-    text-align: start;
     cursor: pointer;
     padding: 10px;
-}
-
-i#burguer:hover{
+    font-size: 30px;
+  }
+  
+  i#burguer:hover {
     background-color: #EFE9D5;
     color: #162736;
     border-radius: 10%;
-    border: 20px;
-}
-
-menu{
+  }
+  
+  /* Menu */
+  menu {
     display: none;
-}
-
-.abaconteudo{
+  }
+  
+  .materias {
     display: flex;
-    font-size: large;
-    justify-content: flex-start;
-    background-color: #162736;
-    color: #EFE9D5;
     justify-content: space-around;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-
-
-a{
+    font-size: 20px;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+  
+  li {
+    list-style: none;
+    margin: 5px 15px;
+  }
+  
+  a {
     text-decoration: none;
     color: #EFE9D5;
-}
-
-li{ list-style: none;}
-
-li:hover{
+  }
+  
+  li:hover {
+    background-color: #162736;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  
+  /* Títulos de seção */
+  .abaconteudo {
+    display: flex;
+    justify-content: space-around;
     background-color: #162736;
     color: #EFE9D5;
-    border-radius: 10%;
-    border: 20px;
-}
-
-.materias{
-    border: #EFE9D5;
-    border: 10px;
+    padding: 10px;
+  }
+  
+  .titulopagina {
     display: flex;
-    font-size: 40px;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: stretch;
-    flex-direction: row;
-    align-content: center;
-}
-
-.titulopagina{
-    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
     color: #27445D;
-    font-size: 15px;
-    justify-content: flex-end;
-    align-content: space-around;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    align-items: stretch;}
+    padding: 20px;
+  }
+  
+  /* Conteúdo */
+  .conteudo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 30px;
+  }
+  
+  .conteudo section {
+    background-color: #27445D;
+    color: #EFE9D5;
+    padding: 20px;
+    border-radius: 12px;
+    width: 28%;
+    min-width: 250px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .conteudo h2 {
+    border-bottom: 2px solid #EFE9D5;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .conteudo ul {
+    padding-left: 20px;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #162736;
+    color: #EFE9D5;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  

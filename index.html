@@ -2,44 +2,63 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Escolar</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-    <body>
-    <header>
-<div>   
-    <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-    <menu id="itens"> 
-    <ul>
-    <div class="materias">
-        <li><a href="física.html">Física</a></li>
-        <li><a href="química.html">Química</a></li>
-        <li><a href="biologia.html">Biologia</a></li>
+<body>
+  <header>
+    <div>
+      <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+      <menu id="itens">
+        <ul class="materias">
+          <li><a href="física.html">Física</a></li>
+          <li><a href="química.html">Química</a></li>
+          <li><a href="biologia.html">Biologia</a></li>
+        </ul>
+      </menu>
     </div>
-    </ul> 
-    </menu>   
-</div>  
+  </header>
 
+  <div class="titulopagina">
+    <h1>Portfólio Escolar</h1>
+  </div>
 
+  <div class="conteudo">
+    <section>
+      <h2>Física</h2>
+      <p>Explore conteúdos de leis de Newton, experimentos com pêndulos e mais.</p>
+      <a href="física.html">Acessar disciplina</a>
+    </section>
+    <section>
+      <h2>Química</h2>
+      <p>Atividades de ligações químicas, reações e práticas de laboratório.</p>
+      <a href="química.html">Acessar disciplina</a>
+    </section>
+    <section>
+      <h2>Biologia</h2>
+      <p>Estudos de genética, células, ecossistemas e análises laboratoriais.</p>
+      <a href="biologia.html">Acessar disciplina</a>
+    </section>
+  </div>
 
+  <footer>
+    <p>Portfólio desenvolvido para apresentação das disciplinas escolares | 2025</p>
+  </footer>
 
-    </header>
-    <script>
-        function clickMenu(){
-           if (itens.style.display == 'block') {
-            itens.style.display = 'none'
-           } else{
-            itens.style.display = 'block'
-           }
-        }
-    </script>
-
-    
+  <script>
+    function clickMenu() {
+      if (itens.style.display === 'block') {
+        itens.style.display = 'none';
+      } else {
+        itens.style.display = 'block';
+      }
+    }
+  </script>
 </body>
 
-
+</html>
