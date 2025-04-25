@@ -10,7 +10,7 @@ header {
     background-color: #5C7285;
     color: #E2E0C8;
     flex-direction: column;
-    font-size: 30px;
+    
 }
 
 i#burguer {
@@ -33,7 +33,7 @@ menu {
 
 .materias {
     display: flex;
-    font-size: 20px;
+    font-size: 50px;
     justify-content: space-around;
     flex-wrap: wrap;
     list-style: none;
