@@ -1,31 +1,33 @@
-
-/* Corpo da página */
-body {
-    background-color: #EFE9D5;
-    font-family: Arial, sans-serif;
-    color: #162736;
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
 }
 
-/* Estilo do cabeçalho */
+body {
+    background-color: #A5C9CA;
+    font-family: Arial, sans-serif;
+    color: #2C3333;
+}
+
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #27445D;
-    color: #EFE9D5;
+    background-color: #395B64;
+    color: #A5C9CA;
     padding: 10px;
 }
 
 i#burguer {
-    background-color: #27445D;
-    color: #EFE9D5;
+    background-color: #395B64;
+    color: #A5C9CA;
     padding: 10px;
     cursor: pointer;
     text-align: start;
 }
 
 i#burguer:hover {
-    background-color: #EFE9D5;
-    color: #162736;
+    background-color: #A5C9CA;
+    color: #2C3333;
     border-radius: 10%;
 }
 
@@ -43,14 +45,14 @@ menu {
 }
 
 .materias li a {
-    color: #EFE9D5;
+    color: #A5C9CA;
     text-decoration: none;
     font-size: 18px;
     padding: 10px;
 }
 
 .materias li a:hover {
-    background-color: #162736;
+    background-color: #2C3333;
     border-radius: 10%;
 }
 
@@ -58,35 +60,32 @@ menu {
     margin-right: 20px;
 }
 
-/* Título da página */
 .titulopagina {
     text-align: center;
     font-size: 24px;
     padding: 20px;
-    color: #27445D;
+    color: #2C3333;
 }
 
-/* Menu de navegação subsequente */
 .submenu {
     display: flex;
     justify-content: center;
-    background-color: #27445D;
+    background-color: #395B64;
     padding: 10px;
     gap: 20px;
 }
 
 .submenu a {
-    color: #EFE9D5;
+    color: #A5C9CA;
     font-weight: bold;
     text-decoration: none;
 }
 
 .submenu a:hover {
-    color: #FFD700;
+    color: #2C3333;
     text-decoration: underline;
 }
 
-/* Conteúdo principal */
 .conteudo {
     padding: 20px;
 }
@@ -106,10 +105,9 @@ menu {
     margin-top: 10px;
 }
 
-/* Botão de voltar */
 .botao-voltar {
-    background-color: #27445D;
-    color: #EFE9D5;
+    background-color: #395B64;
+    color: #A5C9CA;
     padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
@@ -120,19 +118,22 @@ menu {
 }
 
 .botao-voltar:hover {
-    background-color: #162736;
-    color: #FFD700;
+    background-color: #2C3333;
+    color: #A5C9CA;
 }
 
-/* Rodapé */
 footer {
-    background-color: #27445D;
-    color: #EFE9D5;
+    background-color: #395B64;
+    color: #A5C9CA;
     text-align: center;
     padding: 15px;
 }
 
-/* Estilo do menu ao clicar */
+.voltar-index {
+    text-align: center;
+    margin: 20px 0;
+}
+
 #itens {
     display: none;
 }
@@ -141,13 +142,12 @@ footer {
     display: block;
 }
 
-/* Estilo para cada página de conteúdo */
 .abaconteudo {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    background-color: #162736;
-    color: #EFE9D5;
+    background-color: #2C3333;
+    color: #A5C9CA;
     padding: 20px 0;
 }
 
@@ -156,4 +156,3 @@ footer {
     margin-bottom: 20px;
     text-align: center;
 }
-
