@@ -1,15 +1,18 @@
+
+/* Corpo da página */
 body {
     background-color: #EFE9D5;
-    margin: 0;
     font-family: Arial, sans-serif;
+    color: #162736;
 }
 
+/* Estilo do cabeçalho */
 header {
     display: flex;
     justify-content: space-between;
     background-color: #27445D;
     color: #EFE9D5;
-    flex-direction: column;
+    padding: 10px;
 }
 
 i#burguer {
@@ -31,11 +34,10 @@ menu {
 }
 
 .materias {
+    list-style: none;
     display: flex;
-    font-size: 20px;
     justify-content: space-around;
     flex-wrap: wrap;
-    list-style: none;
     padding: 0;
     margin: 0;
 }
@@ -43,21 +45,28 @@ menu {
 .materias li a {
     color: #EFE9D5;
     text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
 }
 
-.materias li:hover {
+.materias li a:hover {
     background-color: #162736;
     border-radius: 10%;
 }
 
+.materias li {
+    margin-right: 20px;
+}
+
+/* Título da página */
 .titulopagina {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+    text-align: center;
     font-size: 24px;
+    padding: 20px;
     color: #27445D;
 }
 
+/* Menu de navegação subsequente */
 .submenu {
     display: flex;
     justify-content: center;
@@ -77,6 +86,7 @@ menu {
     text-decoration: underline;
 }
 
+/* Conteúdo principal */
 .conteudo {
     padding: 20px;
 }
@@ -85,18 +95,18 @@ menu {
     margin-bottom: 40px;
 }
 
-footer {
-    background-color: #27445D;
-    color: #EFE9D5;
-    text-align: center;
-    padding: 15px;
+.item-conteudo {
+    margin-bottom: 30px;
 }
 
-.voltar-index {
-    text-align: center;
-    margin: 20px 0;
+.imagem-conteudo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
+/* Botão de voltar */
 .botao-voltar {
     background-color: #27445D;
     color: #EFE9D5;
@@ -105,6 +115,8 @@ footer {
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+    display: inline-block;
+    margin: 20px 0;
 }
 
 .botao-voltar:hover {
@@ -112,23 +124,36 @@ footer {
     color: #FFD700;
 }
 
-.item-conteudo {
-    margin-bottom: 30px;
-    padding: 10px;
-    border-left: 4px solid #27445D;
-    background-color: #fff;
-    border-radius: 8px;
+/* Rodapé */
+footer {
+    background-color: #27445D;
+    color: #EFE9D5;
+    text-align: center;
+    padding: 15px;
 }
 
-.item-conteudo h3 {
-    margin: 10px 0 5px 0;
-    color: #27445D;
+/* Estilo do menu ao clicar */
+#itens {
+    display: none;
 }
 
-.item-conteudo img.imagem-conteudo {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
+#itens.active {
+    display: block;
 }
+
+/* Estilo para cada página de conteúdo */
+.abaconteudo {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #162736;
+    color: #EFE9D5;
+    padding: 20px 0;
+}
+
+.abaconteudo h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
