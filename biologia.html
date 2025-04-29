@@ -2,84 +2,86 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Biologia</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Química</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <div>
-            <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-            <menu id="itens">
-                <ul class="materias">
-                    <li><a href="física.html">Física</a></li>
-                    <li><a href="química.html">Química</a></li>
-                    <li><a href="biologia.html">Biologia</a></li>
-                </ul>
-            </menu>
-        </div>
-    </header>
-
-    <div class="titulopagina">
-        <h1>Portfólio - Biologia</h1>
+  <header>
+    <div>
+      <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+      <menu id="itens">
+        <ul class="materias">
+          <li><a href="física.html">Física</a></li>
+          <li><a href="química.html">Química</a></li>
+          <li><a href="biologia.html">Biologia</a></li>
+        </ul>
+      </menu>
     </div>
+  </header>
 
-    <div class="voltar-index">
-        <a href="index.html" class="botao-voltar">← Voltar para a Página Inicial</a>
-    </div>
+  <div class="titulopagina">
+    <h1>Portfólio - Biologia</h1>
+  </div>
 
-    <nav class="submenu">
-        <a href="#atividades">Atividades</a>
-        <a href="#laboratorios">Laboratórios</a>
-        <a href="#provas">Provas</a>
-    </nav>
+  <div class="voltar-index">
+    <a href="index.html" class="botao-voltar">← Voltar para a Página Inicial</a>
+  </div>
 
-    <div class="conteudo">
-        <section id="atividades">
-            <h2>Atividades</h2>
-            <ul>
-                <li>Sistema locomotor</li>
-                <li>Avaliação sistemas do organismo</li>
-                
-            </ul>
-        </section>
+  <nav class="submenu">
+    <a href="#atividades">Atividades</a>
+    <a href="#laboratorios">Laboratórios</a>
+    <a href="#provas">Provas</a>
+  </nav>
 
-        <section id="laboratorios">
-            <h2>Laboratórios</h2>
-            <ul>
-                <li>Microscopia de Células Vegetais e Animais</li>
-                <li>Experimento sobre Fotossíntese</li>
-                <li>Experimento de Reprodução Asexuada</li>
-            </ul>
-        </section>
+  <div class="conteudo">
+    <section id="atividades">
+      <h2>Atividades</h2>
+      <div class="item-conteudo">
+        <h3>Sistema muscular e esquelético</h3>
+        <img src="imagens/tabela-periodica.jpg" alt="Tabela Periódica" class="imagem-conteudo">
+        <p> Foram realizadas duas atividades com o objetivo de completar um esquema de esqueleto e musculos humanos com os respectivos nomes de cada parte e entregues ao professor.
+        </p>
+      </div>
+    </section>
 
-        <section id="provas">
-            <h2>Provas</h2>
-            <ul>
-                <li>Prova 1º Bimestre: Células e Organismos</li>
-                <li>Prova 2º Bimestre: Genética</li>
-                <li>Prova Final: Ecologia e Evolução</li>
-            </ul>
-        </section>
-    </div>
+    <section id="laboratorios">
+      <h2>Laboratórios</h2>
+      <div class="item-conteudo">
+        <h3>Sistema locomotor</h3>
+        <img src="labbiologia.jpeg" alt="Laboratório biologia" class="imagem-conteudo">
+        <p>Laboratório em que o objetivo era construir uma mão feita de papelão e barbante para representar as articulações, musculos e ossos que compõe essa parte.</p>
+      </div>
+    </section>
 
-    <footer>
-        <p>Desenvolvido pelos alunos Filipe, Isabela e Laura do 3J - Biologia | 2025</p>
-    </footer>
+    <section id="provas">
+      <h2>Provas</h2>
+      <div class="item-conteudo">
+        <h3>Prova 1º Trimestre</h3>
+        <img src="provabiologia.jpeg" alt="Prova 1º Trimestre" class="imagem-conteudo">
+        <p>Foi realizada uma prova que tratava dos sistemas do nosso corpo, sendo abordado principalmente o digestório, respiratório e cardiovascular.</p>
+      </div>
+    </section>
+  </div>
 
-    <script>
-        function clickMenu() {
-            if (itens.style.display === 'block') {
-                itens.style.display = 'none';
-            } else {
-                itens.style.display = 'block';
-            }
-        }
-    </script>
+  <footer>
+    <p>Desenvolvido pelos alunos Filipe, Isabela e Laura do 3J - Química | 2025</p>
+  </footer>
+
+  <script>
+    function clickMenu() {
+      if (itens.style.display === 'block') {
+        itens.style.display = 'none';
+      } else {
+        itens.style.display = 'block';
+      }
+    }
+  </script>
 </body>
 
 </html>
+
